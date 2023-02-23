@@ -64,8 +64,10 @@
       padding: 0;
       margin: 0;
     }
+    .no-mob{
+      display: none;
 
-
+    }
 
     @media screen and (max-width:480px) {
 
@@ -89,7 +91,10 @@
       
       }
       .btm {
-        padding: 16px 34px;
+        padding: 16px 34px !important;
+      }
+      .no{
+        display: none !important;
       }
     }
   </style>
@@ -288,16 +293,29 @@
               <table class="wFull"  border="0" cellpading="0" cellspacing="0" width="600" style="margin: 30px 0;">
                 <tr>
                   <td align="center" valign="top">
-                    <p class="mob-text-20" style="color: #00263A; font-size: 18px; line-height: 1.4; text-align: justify; margin: 0 24px;">
+                    <p class="mob-text-20 no" style="color: #00263A; font-size: 18px; line-height: 1.4; text-align: justify; margin: 0 24px;">
                       Our exciting tour takes place on 14 - 16 April 2023. Book in advance as the number of participants
                       is limited. Find out
                       more information <a href="#" style="color: #00263A;">here</a>
                       <br />
                       <br />
-                      If you have questions feel free to contact us:
+                      If you have any questions feel free to contact us:
                       <br />
                       <a href="mailto:support@adventures.com" style="color:#00263A; text-decoration: none;">support@adventures.com</a>
                       ,
+                      <a href="tel:+17037738588" style="color:#00263A; text-decoration: none;">+1 703 773 85 88</a>
+                    </p>
+                    <p class="mob-text-20 no-mob"
+                      style="color: #00263A; font-size: 18px; line-height: 1.4; text-align: justify; margin: 0 24px;">
+                      Our exciting tour takes place on 14 - 16 April 2023. Book in advance as the number of participants
+                      is limited. Find out
+                      more information <a href="#" style="color: #00263A;">here</a>
+                      <br />
+                      <br />
+                      If you have any questions feel free to contact us:                      
+                      <a href="mailto:support@adventures.com" style="color:#00263A; text-decoration: none;">support@adventures.com</a>
+                      ,
+                      <br />
                       <a href="tel:+17037738588" style="color:#00263A; text-decoration: none;">+1 703 773 85 88</a>
                     </p>
                   </td>
@@ -306,7 +324,7 @@
             </td>
           </tr>
         </table>
-        <table class="wFull" cellpadding="0" cellspacing="0" border="0" role="presentation" >
+        <table class="wFull" cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top: 20px;">
           <tr>
             <td align="center" valign="top"> 
               <table  border="0" cellpadding="0" cellspacing="0">
